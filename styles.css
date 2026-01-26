@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+body {
+    background-color: #D1D3C4;
+    font-family: 'Quicksand', sans-serif;
+}
+
+h1 {
+  background-color:#6aa7e3;  
+  border: 5px solid #336699;
+  padding: 5px;
+    color: black;
+    font-size: 32px;
+    text-align: center;
+
+}
+
+h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+p {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+footer {
+  background-color: #739973;
+  border: 5px solid #3a553a;
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+
+
+nav {
+  background-color: #739973;
+  border: 5px solid #3a553a;
+  padding: 5px;
+  font-size: 24px;
+  text-align: center;
+}
+
+header img {
+  width: 1000px;
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#about img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto 1.5rem auto;
+}
